@@ -17,14 +17,16 @@
 Download **CoronaStatus.py** file and add into your project.
 
 <br>
+<br>
 
 ### How to download selenium web driver?
 Download web driver according your Chrome version.
 You can download from [Download Link](https://chromedriver.chromium.org/downloads).
 
 <br>
+<br>
 
-### Code Part
+### E X A M P L E
 ```python
 
 from CoronaStatus import CoronaStatus
@@ -32,6 +34,7 @@ status = CoronaStatus("your chrome driver path")
 
 ```
 
+<br>
 <br>
 
 ## M E T H O D S
@@ -44,6 +47,8 @@ status.getConfirmedInState()
 
 ```
 
+<br> 
+
 #### getRecoveredInState( )
 return total number of confirmed case in state.
 ```python
@@ -51,6 +56,8 @@ return total number of confirmed case in state.
 status.getRecoveredInState()
 
 ```
+
+<br> 
 
 #### getDeathsInState( )
 return total number of death in state.
@@ -60,6 +67,8 @@ status.getDeathsInState()
 
 ```
 
+<br> 
+
 #### getConfirmedInCountry( )
 return total number of confirmed case in country.
 ```python
@@ -67,6 +76,8 @@ return total number of confirmed case in country.
 status.getConfirmedInCountry()
 
 ```
+
+<br> 
 
 #### getRecoveredInCountry( )
 return total number of confirmed case in country.
@@ -76,6 +87,8 @@ status.getRecoveredInCountry()
 
 ```
 
+<br> 
+
 #### getDeathsInWorld( )
 return total number of death in world.
 ```python
@@ -83,6 +96,8 @@ return total number of death in world.
 status.getDeathsInWorld()
 
 ```
+
+<br> 
 
 #### getConfirmedInWorld( )
 return total number of confirmed case in world.
@@ -92,6 +107,8 @@ status.getConfirmedInWorld()
 
 ```
 
+<br> 
+
 #### getRecoveredInWorld( )
 return total number of confirmed case in world.
 ```python
@@ -99,6 +116,8 @@ return total number of confirmed case in world.
 status.getRecoveredInWorld()
 
 ```
+
+<br> 
 
 #### getDeathsInWorld( )
 return total number of death in world.
@@ -108,6 +127,8 @@ status.getDeathsInWorld()
 
 ```
 
+<br> 
+
 #### getStateName( )
 return your state name.
 ```python
@@ -115,6 +136,8 @@ return your state name.
 status.getStateName()
 
 ```
+
+<br> 
 
 #### getCountryName( )
 return your country name.
