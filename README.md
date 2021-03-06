@@ -39,7 +39,7 @@ status = CoronaStatus("your chrome driver path")
 
 ## M E T H O D S
 
-#### getConfirmedInState( )
+### getConfirmedInState( )
 return total number of confirmed case in state.
 ```python
 
@@ -49,7 +49,7 @@ status.getConfirmedInState()
 
 <br> 
 
-#### getRecoveredInState( )
+### getRecoveredInState( )
 return total number of confirmed case in state.
 ```python
 
@@ -59,7 +59,7 @@ status.getRecoveredInState()
 
 <br> 
 
-#### getDeathsInState( )
+### getDeathsInState( )
 return total number of death in state.
 ```python
 
@@ -69,7 +69,7 @@ status.getDeathsInState()
 
 <br> 
 
-#### getConfirmedInCountry( )
+### getConfirmedInCountry( )
 return total number of confirmed case in country.
 ```python
 
@@ -79,7 +79,7 @@ status.getConfirmedInCountry()
 
 <br> 
 
-#### getRecoveredInCountry( )
+### getRecoveredInCountry( )
 return total number of confirmed case in country.
 ```python
 
@@ -89,7 +89,7 @@ status.getRecoveredInCountry()
 
 <br> 
 
-#### getDeathsInWorld( )
+### getDeathsInWorld( )
 return total number of death in world.
 ```python
 
@@ -99,7 +99,7 @@ status.getDeathsInWorld()
 
 <br> 
 
-#### getConfirmedInWorld( )
+### getConfirmedInWorld( )
 return total number of confirmed case in world.
 ```python
 
@@ -109,7 +109,7 @@ status.getConfirmedInWorld()
 
 <br> 
 
-#### getRecoveredInWorld( )
+### getRecoveredInWorld( )
 return total number of confirmed case in world.
 ```python
 
@@ -119,7 +119,7 @@ status.getRecoveredInWorld()
 
 <br> 
 
-#### getDeathsInWorld( )
+### getDeathsInWorld( )
 return total number of death in world.
 ```python
 
@@ -129,7 +129,7 @@ status.getDeathsInWorld()
 
 <br> 
 
-#### getStateName( )
+### getStateName( )
 return your state name.
 ```python
 
@@ -139,7 +139,7 @@ status.getStateName()
 
 <br> 
 
-#### getCountryName( )
+### getCountryName( )
 return your country name.
 ```python
 
