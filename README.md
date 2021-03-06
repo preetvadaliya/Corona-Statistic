@@ -26,7 +26,7 @@ You can download from [Download Link](https://chromedriver.chromium.org/download
 <br>
 <br>
 
-### E X A M P L E
+## E X A M P L E
 ```python
 
 from CoronaStatus import CoronaStatus
